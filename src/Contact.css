@@ -1,0 +1,62 @@
+/* General Styles */
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  color: white;
+  margin-bottom: 0px;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.contact .btn {
+  padding: 10px 20px;
+  background: white;
+  color: #2575fc;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.contact .btn:hover {
+  background: #f3f3f3;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon {
+  color: white;
+  font-size: 1.5rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icon:hover {
+  color: #f3f3f3;
+  transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+}
