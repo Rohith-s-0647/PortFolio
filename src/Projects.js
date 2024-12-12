@@ -2,9 +2,30 @@ import React from "react";
 import "./Projects.css";
 
 const projects = [
-  { id: 1, title: 'E-commerce App', description: 'An online store built with React.js.', link: 'http://localhost:3000/' },
-  { id: 2, title: 'Portfolio Website', description: 'A responsive portfolio showcasing my skills.', link: 'https://example.com/portfolio' },
-  { id: 3, title: 'Calculator App', description: 'A task management tool with CRUD operations.', link: 'http://localhost:3000/' },
+  { 
+    id: 1, 
+    title: 'E-commerce App', 
+    description: 'An online store built with HTML, CSS, and JavaScript, featuring product listing and basic cart functionality.', 
+    link: 'https://rohith-s-0647.github.io/Front_end_project/' 
+  },
+  { 
+    id: 2, 
+    title: 'Portfolio Website', 
+    description: 'A responsive portfolio showcasing my skills, projects, and professional experience.', 
+    link: 'https://rohith-s-0647.github.io/Portfolio/' 
+  },
+  { 
+    id: 3, 
+    title: 'Calculator App', 
+    description: 'A simple yet interactive calculator app with multiple arithmetic and percentage operations.', 
+    link: 'https://rohith-s-0647.github.io/Calculator/' 
+  },
+  { 
+    id: 4, 
+    title: 'Meal Hub', 
+    description: 'An online food ordering platform with an easy-to-navigate menu and order system.', 
+    link: 'https://rohith-s-0647.github.io/Meal-Hub/' 
+  },
 ];
 
 const Projects = () => {
